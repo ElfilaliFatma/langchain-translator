@@ -36,6 +36,14 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 
 def main(argv: list[str] | None = None) -> int:
+    # Windows consoles default to cp1252; Arabic, Japanese or accent-heavy
+    # translations would crash the printer without this.
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass
+
     args = parse_args(argv)
     if args.to not in supported_codes():
         print(f"Unknown target language '{args.to}'. Supported: {', '.join(supported_codes())}")
