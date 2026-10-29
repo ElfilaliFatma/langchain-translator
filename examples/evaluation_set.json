@@ -1,0 +1,50 @@
+[
+  {
+    "source_lang": "en",
+    "target_lang": "fr",
+    "source": "The server will be unavailable during the maintenance window.",
+    "reference": "Le serveur sera indisponible pendant la fenêtre de maintenance."
+  },
+  {
+    "source_lang": "en",
+    "target_lang": "fr",
+    "source": "Please reset your password before the end of the week.",
+    "reference": "Veuillez réinitialiser votre mot de passe avant la fin de la semaine."
+  },
+  {
+    "source_lang": "en",
+    "target_lang": "fr",
+    "source": "Our team ships small improvements every day.",
+    "reference": "Notre équipe livre de petites améliorations chaque jour."
+  },
+  {
+    "source_lang": "fr",
+    "target_lang": "en",
+    "source": "La réunion a été reportée à jeudi prochain.",
+    "reference": "The meeting has been postponed to next Thursday."
+  },
+  {
+    "source_lang": "fr",
+    "target_lang": "en",
+    "source": "Les données sont chiffrées au repos et en transit.",
+    "reference": "The data is encrypted at rest and in transit."
+  },
+  {
+    "source_lang": "fr",
+    "target_lang": "en",
+    "source": "Merci de confirmer votre présence avant vendredi.",
+    "reference": "Please confirm your attendance before Friday."
+  },
+  {
+    "source_lang": "en",
+    "target_lang": "ar",
+    "source": "The weather will be sunny and warm this weekend.",
+    "reference": "سيكون الطقس مشمسًا ودافئًا في نهاية هذا الأسبوع."
+  },
+  {
+    "source_lang": "en",
+    "target_lang": "es",
+    "source": "Cloud computing reduces the need for on-premise hardware.",
+    "reference": "La computación en la nube reduce la necesidad de hardware local."
+  }
+]
