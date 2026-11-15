@@ -1,0 +1,55 @@
+{
+  "bleu": 63.514452575393506,
+  "average_judge_score": 3.375,
+  "samples": 8,
+  "rows": [
+    {
+      "source": "The server will be unavailable during the maintenance window.",
+      "hypothesis": "Le serveur sera indisponible pendant la fenêtre de maintenance.",
+      "reference": "Le serveur sera indisponible pendant la fenêtre de maintenance.",
+      "judge_score": 2
+    },
+    {
+      "source": "Please reset your password before the end of the week.",
+      "hypothesis": "Veuillez réinitialiser votre mot de passe avant la fin de la semaine.",
+      "reference": "Veuillez réinitialiser votre mot de passe avant la fin de la semaine.",
+      "judge_score": 5
+    },
+    {
+      "source": "Our team ships small improvements every day.",
+      "hypothesis": "Notre équipe livre des améliorations mineures chaque jour.",
+      "reference": "Notre équipe livre de petites améliorations chaque jour.",
+      "judge_score": 2
+    },
+    {
+      "source": "La réunion a été reportée à jeudi prochain.",
+      "hypothesis": "The meeting has been rescheduled to next Thursday.",
+      "reference": "The meeting has been postponed to next Thursday.",
+      "judge_score": 2
+    },
+    {
+      "source": "Les données sont chiffrées au repos et en transit.",
+      "hypothesis": "The data is encrypted at rest and in transit.",
+      "reference": "The data is encrypted at rest and in transit.",
+      "judge_score": 5
+    },
+    {
+      "source": "Merci de confirmer votre présence avant vendredi.",
+      "hypothesis": "Please confirm your attendance before Friday.",
+      "reference": "Please confirm your attendance before Friday.",
+      "judge_score": 1
+    },
+    {
+      "source": "The weather will be sunny and warm this weekend.",
+      "hypothesis": "سيكون الأطلاق الأحاضر شمسية وحارة.\n\n(The weekend will be sunny and warm.)",
+      "reference": "سيكون الطقس مشمسًا ودافئًا في نهاية هذا الأسبوع.",
+      "judge_score": 5
+    },
+    {
+      "source": "Cloud computing reduces the need for on-premise hardware.",
+      "hypothesis": "La nube computacional reduce la necesidad de hardware en local.",
+      "reference": "La computación en la nube reduce la necesidad de hardware local.",
+      "judge_score": 5
+    }
+  ]
+}

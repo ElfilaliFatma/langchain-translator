@@ -53,7 +53,7 @@ Details worth defending in a viva:
 
 ## 4. Testing and results
 
-### 4.1 Unit tests (`pytest`, 20 assertions across 9 tests)
+### 4.1 Unit tests (`pytest`, 23 tests)
 
 The fake model lets us verify behaviour that a live model makes flaky:
 

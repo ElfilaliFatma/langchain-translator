@@ -34,7 +34,8 @@ def main() -> None:
         st.header("Model")
         settings = Settings.from_env()
         provider = st.selectbox("Provider", ["ollama", "openai"], index=0)
-        model = st.text_input("Model", value=settings.model if provider == settings.provider else "mistral")
+        default_model = settings.model if provider == settings.provider else "mistral"
+        model = st.text_input("Model", value=default_model)
         temperature = st.slider("Temperature", 0.0, 1.0, 0.0, 0.1)
         tone = st.selectbox("Style", ["", "formal", "casual", "technical", "marketing"])
         review = st.toggle("Ask the model to review the output", value=False)
@@ -59,7 +60,9 @@ def main() -> None:
         output_box = st.empty()
 
     with st.expander("Advanced: context and glossary"):
-        context = st.text_input("Domain context", placeholder="e.g. legal contract, medical leaflet")
+        context = st.text_input(
+            "Domain context", placeholder="e.g. legal contract, medical leaflet"
+        )
         glossary_raw = st.text_area(
             "Glossary (one per line: source = target)",
             placeholder="cloud = cloud computing\nlatency = latence",
